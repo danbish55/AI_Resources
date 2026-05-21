@@ -5,6 +5,7 @@ Shared AI resources for Codex, ChatGPT, and related workflows.
 ## Structure
 
 - `skills/` - reusable Codex skills and supporting files.
+- `skills/<skill-name>/` - one folder per skill, using a clear lowercase kebab-case name.
 
 ## Skills
 
@@ -12,7 +13,7 @@ Shared AI resources for Codex, ChatGPT, and related workflows.
 
 ## Installing a Skill Locally
 
-Copy a skill folder into your local Codex skills directory:
+Copy the specific skill folder into your local Codex skills directory:
 
 ```powershell
 Copy-Item -Recurse -Force .\skills\divi-5-builder "$env:USERPROFILE\.codex\skills\divi-5-builder"
