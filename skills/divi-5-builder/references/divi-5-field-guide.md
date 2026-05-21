@@ -9,6 +9,14 @@ Latest crawl added these official resources:
 - Help Center Divi 5 hub: https://help.elegantthemes.com/en/collections/10650977-divi-5
 - Help Center update status: https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status
 - Elegant Themes blog home: https://www.elegantthemes.com/blog/
+- Divi 5 changelog: https://www.elegantthemes.com/api/changelog/divi-5.txt
+- Timeline module Help Center article: https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5
+- Nested Option Presets tutorial: https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets
+- New Form Field Options tutorial: https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options
+- Custom Woo Checkout Pages tutorial: https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5
+- Horizontal Blog Loop tutorial: https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5
+- Divi 5 Mastery Course Part 9: https://www.elegantthemes.com/blog/divi-resources/part-9-building-the-core-inner-pages-of-your-divi-5-website
+- Divi 5 Mastery Course Part 10: https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5
 - Divi 5.5 Release Notes: https://www.elegantthemes.com/blog/divi-resources/divi-5-5-release-notes
 - Divi design YouTube channel roundup: https://www.elegantthemes.com/blog/divi-resources/divi-design-youtube-channels-you-should-follow
 
@@ -16,18 +24,23 @@ Coverage captured:
 
 - 260 Help Center pages: 17 Divi 5-related collections and 243 articles.
 - 246 Elegant Themes blog pages related to Divi 5, Divi theme releases, Divi 5 tutorials, and Divi 5 design examples.
-- Existing skill references already summarize the Part 1-7 Divi 5 build course and the major tutorial articles for Command Center, queueing, variables, presets, menus, interactions, hotspots, editable areas, and carousels.
+- Existing skill references already summarize the Part 1-10 Divi 5 build course and the major tutorial articles for Command Center, queueing, variables, presets, form field options, menus, interactions, hotspots, editable areas, loops, checkout templates, and carousels.
 
 ## Current Status Snapshot
 
 As of the latest refreshed sources:
 
+- The Divi 5 changelog showed `Divi 5.5.2`, updated `05-16-2026`. Source: https://www.elegantthemes.com/api/changelog/divi-5.txt
+- Divi 5.5.2 added the Timeline parent module and Timeline Item child module, with Visual Builder/front-end rendering parity and snapshot-backed coverage. Use this as confirmed availability; earlier Divi 5.5 release-note mentions of Timeline as "coming next" are now superseded by the changelog.
+- Divi 5.5.2 added new Color Scale and Color Harmony variable generators, plus a missing quaternary color for tetradic harmony. Treat these as design-system generator additions and verify exact UI labels in the current builder before giving click-by-click instructions.
+- Divi 5.5.2 added destructive-action confirmation gating for AI Agent tools, allowing tools to declare risk levels and custom approval messaging that triggers human review before execution.
+- Divi 5.5.2 fixes include image alignment for absolutely positioned modules, tablet/phone-only image first-load breakage, duplicate Open Sans loading, Divi Cloud preset import notices, Group Carousel resize/1px sliver issues, Video module embedded YouTube/runtime and height-constraint overlap issues, Link module responsive icon/dropdown issues, Loop Builder shortcode/meta-query context problems, conditional display page-rule archive matching, and several D4-to-D5 migration edge cases.
+- Divi 5.5.1 had release date `05-11-2026`. It added an AI Agent stop button, browser-side AI Agent checkpoint persistence, restored several WooCommerce display conditions, fixed dynamic Module Custom CSS output, and resolved multiple Visual Builder, library, pagination, preset, and responsive issues. Source: https://www.elegantthemes.com/api/changelog/divi-5.txt
 - Divi 5.5 release notes were published May 12, 2026. Elegant Themes states that the beta phases have ended, Divi 5 has arrived, and Divi 5.5 update notifications are available to Divi 5 users. Source: https://www.elegantthemes.com/blog/divi-resources/divi-5-5-release-notes
 - Divi 5.5 release notes state the update includes 58 bug fixes and improvements, plus new image-related features and the sizing-variable/color-scheme generator framing. Treat "ready for production" and "innovation will accelerate" as official status/roadmap claims that still require site-specific testing before a launch decision.
 - Divi 5 is no longer just a future rewrite or beta-only concept; the official blog has a `Divi 5 Official` release article, and the Help Center has live Divi 5 documentation collections.
-- The Divi 5 changelog showed `Divi 5.5.0`, updated `05-08-2026`.
 - Divi 5.5.0 added and hardened the SVG module workflow so editors can render and style sanitized inline SVG from code or uploaded source with consistent Visual Builder/front-end behavior. Source: https://www.elegantthemes.com/api/changelog/divi-5.txt
-- Divi 5.5 release notes say Breadcrumbs and SVG modules have already appeared, and describe upcoming module work such as timeline, form-styler modules for popular form plugins, table of contents, and Instagram feed. Treat unreleased module mentions as roadmap, not available-feature guidance.
+- Divi 5.5 release notes say Breadcrumbs and SVG modules have already appeared, and describe upcoming module work such as form-styler modules for popular form plugins, table of contents, and Instagram feed. Treat unreleased module mentions as roadmap, not available-feature guidance.
 - Divi 5.5.0 improved AI post management tools by reusing page tools with a `postType` option, including custom post type support.
 - Divi 5.5.0 includes compatibility and rendering fixes for Contact Form button hover/sizing, deleted global color re-imports, short desktop toolbar reachability, Theme Customizer row/heading/text color parity, Menu/Fullwidth Menu cart quantity responsiveness, Lottie portability, product dynamic content context, module links with multiple query parameters, and Constant Contact OAuth/API v3 handling.
 - Divi 5.4.1 had release date `05-05-2026`.
@@ -47,6 +60,7 @@ Facts to rely on:
 - Divi 5 has official Help Center collections for getting started, migration, Visual Builder basics, Visual Builder core concepts, advanced concepts, modules, WooCommerce modules, option groups, features, Flexbox, CSS Grid, troubleshooting, Cloud, and email integrations.
 - Elegant Themes' May 12, 2026 Divi 5.5 release notes say the beta phases have ended and Divi 5 update cadence is moving into weekly updates. Keep checking current status/changelog before answering time-sensitive availability questions.
 - Divi 5 adds or expands concrete systems: Design Variables, Variable Generator, Option Group Presets, Element Presets, stacked/nested presets, Extend Attributes, Composable Settings, settings search/filtering, responsive editor, customizable breakpoints, Flexbox, CSS Grid, nested rows, nested modules, Group and Group Carousel modules, Interactions, Canvases, Canvas Portal, Loop Builder, Dynamic Content, Editable Theme Builder Areas, Page Manager, Preview Mode, Content Drill Down, semantic elements/custom HTML wrappers, Link and Dropdown modules, Menu Loops, WooCommerce modules, Divi Cloud support, and AI-assisted workflows.
+- The Timeline module is now a confirmed Divi 5 module. It uses Timeline Item child modules, supports dynamic Loop Builder data on the parent module, and includes Even option groups for alternating item/card/date/title/body styling. Source: https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5
 - Many Divi 5 workflows are builder-native and do not require custom code when variables, presets, layout controls, interactions, or Theme Builder templates solve the problem.
 - Migration and compatibility still deserve caution. Use staging for existing sites, check third-party module compatibility, and verify frontend rendering after conversion.
 
@@ -133,6 +147,8 @@ Theme Builder and dynamic content:
 - Loop Builder builds repeated layouts from posts, taxonomies, custom post types, ACF fields, ACF repeater fields, and WooCommerce data.
 - For blog/archive/search/product grids, prefer Theme Builder plus Loop Builder over manually duplicating cards.
 - The Divi 5 Mastery Course Part 8 pattern uses Theme Builder templates for All Posts, Category Pages, Author Pages, Search Results, and 404 pages, with Dynamic Content for post title, featured image, author details, dates, author bio, post content, and archive context.
+- The Divi 5 Mastery Course Part 9 builds core inner pages after the global template work, using Contact and Events pages as the pattern. Source: https://www.elegantthemes.com/blog/divi-resources/part-9-building-the-core-inner-pages-of-your-divi-5-website
+- The Divi 5 Mastery Course Part 10 focuses on Flexbox settings in the Visual Builder, including layout style, horizontal/vertical gap, layout direction, justify content, align items, wrapping, and align content. Source: https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5
 
 Menus and navigation:
 
@@ -159,6 +175,7 @@ WooCommerce:
 
 - Divi 5 has Help Center coverage for WooCommerce modules and blog guidance for product pages, category pages, cart/checkout, and product loops.
 - Prefer product/category/archive templates with Theme Builder and dynamic Woo modules.
+- For checkout, Divi 5 supports building a Checkout Theme Builder template with separate Woo Checkout Billing, Shipping, Information, Details, Payment, and Woo Notice modules instead of one rigid checkout shortcode. Source: https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5
 - Verify cart, checkout, focus states, notices, form fields, and product variation states on the frontend.
 
 Troubleshooting:
@@ -219,11 +236,13 @@ For existing Divi 4 sites:
 
 Use the blog crawl as a source list for deeper tutorial support. High-value Divi 5 blog topics discovered:
 
-- Official launch/status/release notes: `Divi 5 Official`, `Divi 5.1 Release Notes`, `Divi 5.2 Release Notes`, `Divi 5.3 Release Notes`, public beta release notes, changelog entries through Divi 5.5.0.
+- Official launch/status/release notes: `Divi 5 Official`, `Divi 5.1 Release Notes`, `Divi 5.2 Release Notes`, `Divi 5.3 Release Notes`, public beta release notes, changelog entries through Divi 5.5.2.
 - Release notes: `Divi 5.5 Release Notes` covers the May 12, 2026 post-beta status, 58 fixes/improvements, image aspect ratio/framing/presets, variable-generator framing, SVG/Breadcrumbs module mentions, and near-term module roadmap.
-- Core onboarding: `Getting Started With Divi 5`, `Divi 5 Beginner's Guide`, `How To Build A Website With Divi 5`, Part 1-8 build course.
-- Design system: `Introducing Design Variables`, `Variable Generator`, `Preset-Based Design`, `Nested Option Presets`, `Stacked And Nested Presets`, `Preset Manager`, `Relative Colors`, `Advanced Units`, `Extend Attributes`, `Find And Replace`.
+- Current changelog: `Divi 5.5.2` covers the May 16, 2026 Timeline module release, Color Scale and Color Harmony generator additions, AI Agent destructive-action confirmation gating, and a broad set of rendering, migration, WooCommerce, Loop Builder, Link, Video, and Group Carousel fixes.
+- Core onboarding: `Getting Started With Divi 5`, `Divi 5 Beginner's Guide`, `How To Build A Website With Divi 5`, Part 1-10 build course.
+- Design system: `Introducing Design Variables`, `Variable Generator`, `Preset-Based Design`, `Nested Option Presets`, `Stacked And Nested Presets`, `Preset Manager`, `Relative Colors`, `Advanced Units`, `Extend Attributes`, `Find And Replace`, and the May 20, 2026 Nested Option Presets tutorial.
 - Design system (Composable Settings): `How To Enable Composable Settings By Default Using Presets In Divi 5`.
+- Design system (forms): `New Form Field Options` covers Input, Checkbox, and Radio option groups, focus/checked states, field presets, and the Contact Form 7 module.
 - Image design system: `Aspect Ratio, Image Framing & Image Presets for Divi 5`.
 - Layout systems: `Flexbox`, `CSS Grid`, customizable breakpoints, responsive editor, nested rows, nested modules, module groups, Group Carousel, Lottie, Icon List.
 - Builder workflow: Command Center, queueing commands, settings search/filtering, Page Manager, Preview Mode, Content Drill Down, top bar UI, Style Inspector.
@@ -231,7 +250,7 @@ Use the blog crawl as a source list for deeper tutorial support. High-value Divi
 - Interactivity: Interactions, Canvases, Canvas Portal, off-canvas popups, hover reveal, hotspots, sidebar navigation, scroll interactions, tilt image effects, Ken Burns effects.
 - Menus: Link Module, Dropdown Module, Menu Loops, mega menus, mobile/off-canvas menus, simple semantic navigation.
 - Semantic HTML: semantic elements, custom HTML wrappers, figure/figcaption, header/footer/main/section/aside, semantic links versus dynamic click areas.
-- Dynamic/commerce: Loop Builder, custom post type carousel loops, ACF fields/repeaters, WooCommerce modules, product pages, category pages, cart/checkout.
+- Dynamic/commerce: Loop Builder, Horizontal Blog Loop, custom post type carousel loops, ACF fields/repeaters, WooCommerce modules, product pages, category pages, cart/checkout, and custom Woo Checkout Theme Builder templates.
 - Practical design examples: free Divi 5 sections for grids, contact sections, tables, collages, hotspots, large text, border layouts, masks, split screens, 404 sections, and color adjustments.
 - Learning resources: the YouTube roundup recommends Elegant Themes, Divi Chat, Josh Hall, Darrel Wilson, Web Contempo, and System 22 I.T. Solutions. Treat older video advice as possibly Divi 4-era unless it explicitly shows Divi 5.
 

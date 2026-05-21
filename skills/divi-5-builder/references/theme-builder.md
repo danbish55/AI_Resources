@@ -247,6 +247,36 @@ Best practices:
 - Test templates with real content, not only ideal sample content.
 - Use Design Variables and Presets so global design changes propagate predictably.
 
+## Woo Checkout Templates
+
+Source: https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5
+
+Use a Theme Builder Checkout template when a WooCommerce store needs a branded checkout page that remains connected to WooCommerce functionality.
+
+Recommended structure:
+
+1. Go to `Divi > Theme Builder`.
+2. Click `Add New Template > Build New Template`.
+3. Under `WooCommerce Pages`, select `Checkout`, then create the template.
+4. Add a custom body and open it in the Visual Builder.
+5. Add a dynamic page heading if useful.
+6. Place a Woo Notice module near the top and set its Page Type to Checkout.
+7. Build the checkout with dedicated Woo Checkout modules:
+   - Woo Checkout Billing.
+   - Woo Checkout Shipping.
+   - Woo Checkout Information.
+   - Woo Checkout Details.
+   - Woo Checkout Payment.
+
+Layout guidance:
+
+- A two-column layout often works well on desktop: customer fields on the left, order details and payment on the right.
+- Use Design Variables and form field presets so checkout fields match the rest of the site.
+- Keep the Place Order button visually dominant and avoid styling secondary links, coupon notices, or login prompts so they compete with it.
+- On tablet and phone, verify clean stacking, field tap size, labels, payment method readability, notices, coupon spacing, and the Place Order button.
+
+Before launch, place a real test order and verify cart-to-checkout-to-confirmation behavior, coupons, shipping rates, taxes, payment gateways, confirmation emails, and mobile layout.
+
 ## Editable Theme Builder Areas
 
 Divi 5 can load assigned header, body template, page context, and footer into one front-end Visual Builder session.

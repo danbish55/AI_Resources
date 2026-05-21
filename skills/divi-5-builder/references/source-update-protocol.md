@@ -36,6 +36,14 @@ Divi 5 Help Center:
 
 Core blog/tutorial sources:
 
+- https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets
+- https://www.elegantthemes.com/blog/divi-resources/5-svg-sections-for-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/17-graphs-charts-for-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/part-9-building-the-core-inner-pages-of-your-divi-5-website
+- https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options
 - https://www.elegantthemes.com/blog/divi-resources/divi-5-5-release-notes
 - https://www.elegantthemes.com/blog/divi-resources/part-1-what-to-prepare-before-building-your-divi-5-website
 - https://www.elegantthemes.com/blog/divi-resources/part-2-exploring-every-aspect-of-the-divi-5-interface
@@ -61,6 +69,7 @@ Core blog/tutorial sources:
 
 Core release/feature sources:
 
+- https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5
 - https://www.elegantthemes.com/blog/theme-releases/variable-generator
 - https://www.elegantthemes.com/blog/theme-releases/complete-site-editing
 - https://www.elegantthemes.com/blog/theme-releases/nested-option-presets

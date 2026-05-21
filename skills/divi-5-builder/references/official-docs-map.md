@@ -57,6 +57,7 @@ Important note: this documentation set covers the Divi Builder and many establis
 
 ## Standard Content Modules
 
+- [The Timeline module in Divi 5](https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5)
 - [The Divi Accordion Module](https://www.elegantthemes.com/documentation/divi/accordion/)
 - [The Divi Audio Module](https://www.elegantthemes.com/documentation/divi/audio/)
 - [The Divi Bar Counters Module](https://www.elegantthemes.com/documentation/divi/bar-counter/)
@@ -112,6 +113,7 @@ Important note: this documentation set covers the Divi Builder and many establis
 
 ## Forms, Email, And Spam Protection
 
+- [New Form Field Options in Divi 5](https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options)
 - [The Divi Contact Form Module](https://www.elegantthemes.com/documentation/divi/contact/)
 - [The Divi Email Optin Module](https://www.elegantthemes.com/documentation/divi/newsletter/)
 - [The Divi Login Module](https://www.elegantthemes.com/documentation/divi/login/)

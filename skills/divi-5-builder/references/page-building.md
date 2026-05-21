@@ -138,6 +138,45 @@ Use:
 
 Prefer native responsive tools before custom CSS.
 
+## Flexbox Course Notes
+
+Source: https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5
+
+Part 10 of the Divi 5 Mastery Course centers the native Flexbox controls in the Visual Builder:
+
+- `Layout Style` chooses Flexbox versus other layout modes.
+- Horizontal and vertical gaps handle spacing between child elements without margins.
+- `Layout Direction` sets the main axis: Row, Row Reverse, Column, or Column Reverse.
+- `Justify Content` distributes items along the main axis; `Align Items` handles the cross axis.
+- Layout wrapping and `Align Content` are useful when child elements can flow onto multiple lines.
+
+Workflow recommendation: use Flexbox for headers, nav rows, grouped buttons, card internals, icon/text rows, and responsive one-dimensional stacks. Adjust layout direction at responsive breakpoints instead of rebuilding the structure when desktop side-by-side content should stack on smaller screens.
+
+## Timeline Module
+
+Source: https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5
+Changelog source: https://www.elegantthemes.com/api/changelog/divi-5.txt
+
+Divi 5.5.2 added the Timeline parent module and Timeline Item child modules. Use it for company histories, product roadmaps, resumes/CVs, case studies, process pages, onboarding flows, and other dated or sequenced content.
+
+Key behavior:
+
+- Each event is a Timeline Item child module that can be added, edited, duplicated, deleted, and reordered independently.
+- Parent Timeline content settings include item management, link, background, Loop, order, and meta options.
+- Parent design settings include Timeline, Track, Item, Spacer, Connector, Marker, Card, Date Text, Title Text, Body Text, Sizing, Spacing, Border, Box Shadow, Filters, Transform, and Animation.
+- The parent module can enable Loop Builder when timeline events should come from a dynamic source.
+- Several option groups include Even sub-options so every second item can be styled differently, supporting alternating timeline layouts without custom CSS.
+
+Workflow recommendation: use the parent module for shared structure, track, marker, card, and typography styles; use child item settings only for per-event content or intentional overrides. Verify exact alternating-side labels in the live builder before giving precise click paths because the Help Center article flags one card-side label for verification.
+
+## Horizontal Blog Loop
+
+Source: https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5
+
+Use Loop Builder instead of the Blog module when the design needs a fully custom repeated post card. The horizontal blog loop pattern designs one post card with ordinary Divi elements, connects image/title/date/excerpt/link elements to dynamic post data, and lets Divi repeat the card for the query.
+
+Recommended uses: editorial blog indexes, resources, projects, products, events, team members, and other repeated content where the card layout should not follow the fixed Blog module structure. Add pagination when the query can return more items than the page should show at once.
+
 ## Divi 5.5 Layout And Builder Notes
 
 Official release-note source: https://www.elegantthemes.com/blog/divi-resources/divi-5-5-release-notes

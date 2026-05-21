@@ -50,6 +50,8 @@ Generated colors are global color variables, not a static palette. Divi uses the
 
 Use the color generator when a site needs a coherent palette quickly or when the brand color may change later. Use manual variables when the brand already has a strict, approved palette that should not be mathematically derived.
 
+Divi 5.5.2 added Color Scale and Color Harmony variable generators, plus a missing quaternary color for tetradic harmony. Source: https://www.elegantthemes.com/api/changelog/divi-5.txt
+
 Sizing generator:
 
 1. Open Variable Manager.
@@ -136,10 +138,13 @@ Use image presets for repeatable card images, blog loops, product grids, team ph
 
 ## Nested And Stacked Presets
 
+Source: https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets
+
 Nested presets:
 
 - Put Option Group Presets inside Element Presets.
 - Put Option Group Presets inside other Option Group Presets when useful.
+- Save presets for deeply nested option groups inside module sub-elements, such as a button border inside a CTA module, an image border inside a Blurb module, or form field styles inside a form-based module.
 - Example: CTA preset -> Button preset -> Pill Border preset.
 
 Stacked presets:
@@ -148,7 +153,20 @@ Stacked presets:
 - Good stacks: spacing + border + typography + background.
 - Avoid stacking presets that fight for the same property.
 
-Use Preset Preview before saving global changes. Export presets as backup or reuse package.
+Use Preset Preview before saving global changes. Export presets as backup or reuse package. Keep nested presets focused and role-named because editing a low-level preset can update every larger Option Group Preset or Element Preset that includes it.
+
+## Form Field Presets
+
+Source: https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options
+
+Divi 5 form-based modules, including Contact Form, Email Optin, Login, and the new Contact Form 7 module, now share more unified form styling controls:
+
+- Input, Checkbox, and Radio option groups split form styling into clearer reusable scopes.
+- Label and placeholder styling can be handled through these form option groups where applicable.
+- Focus and Checked pseudo-class states can be edited from the module state selector.
+- Field Option Group Presets can carry reusable form styles across native Divi forms and supported integration modules.
+
+Recommended workflow: create Design Variables for field color, border, radius, spacing, text size, focus color, and checked color; save Input, Checkbox, and Radio Option Group Presets; then create Element Presets for complete form module patterns. Prefer this native workflow before adding custom CSS to form fields.
 
 ## Composable Settings
 
