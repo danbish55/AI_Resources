@@ -1,0 +1,4 @@
+interface:
+  display_name: "Divi 5 Builder"
+  short_description: "Divi 5 website build workflows"
+  default_prompt: "Use $divi-5-builder to plan, build, or troubleshoot a Divi 5 WordPress website."
