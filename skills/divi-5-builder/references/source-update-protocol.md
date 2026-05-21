@@ -6,6 +6,20 @@ Use this when the user asks to refresh, update, re-crawl, or automatically maint
 
 A `SKILL.md` file cannot wake itself up, browse websites on a schedule, or rewrite itself without a Codex run. True automatic updating requires a Codex automation or a user-triggered refresh session. This protocol makes the skill updateable; an external automation makes it scheduled.
 
+## Refresh Helper
+
+Use `scripts/refresh-sources.py` to produce a compact change report before patching references. The script fetches URLs listed in this protocol, compares them with `references/source-ledger.json`, detects version/title/content-hash changes when ledger data exists, and reports failed sources.
+
+Examples:
+
+```powershell
+python C:\Users\bdanb\.codex\skills\divi-5-builder\scripts\refresh-sources.py
+python C:\Users\bdanb\.codex\skills\divi-5-builder\scripts\refresh-sources.py --limit 5
+python C:\Users\bdanb\.codex\skills\divi-5-builder\scripts\refresh-sources.py --update-ledger
+```
+
+The script does not rewrite Divi reference guidance. Treat it as an evidence-gathering step, then patch the smallest relevant Markdown files manually. Use `--update-ledger` only after reviewing the report and updating reference notes as needed.
+
 ## Canonical Sources To Revisit
 
 Current/status sources:
@@ -102,7 +116,7 @@ Use third-party sources as supporting intelligence, not as canonical truth about
 3. Crawl the Help Center hub and its Divi 5 collections for new article links.
 4. Crawl the Elegant Themes blog home, Divi Resources category, and Theme Releases category for new Divi 5 posts.
 5. Crawl approved third-party Divi 5 sources for ecosystem updates, plugin compatibility notes, tutorials, and practical examples.
-6. Compare discovered URLs against this source ledger and the existing reference files.
+6. Compare discovered URLs against `references/source-ledger.json` and the existing reference files.
 7. Summarize only new or changed knowledge. Do not duplicate existing notes unless the old note needs correction.
 8. Classify each update as `confirmed fact`, `third-party ecosystem note`, `workflow recommendation`, `tutorial pattern`, `marketing claim`, or `needs verification`.
 9. Patch the smallest relevant reference file:
@@ -114,8 +128,9 @@ Use third-party sources as supporting intelligence, not as canonical truth about
    - `components-menus.md` for menu modules, Link/Dropdown modules, semantic navigation, carousels, badges, and component patterns.
    - `divi-5-field-guide.md` for broad feature maps, current status, source coverage, and beginner coaching.
    - `official-docs-map.md` for general official documentation links.
-10. Update this file if new canonical or approved third-party sources should be watched in future runs.
-11. Validate the skill with `python C:\Users\bdanb\.codex\skills\.system\skill-creator\scripts\quick_validate.py C:\Users\bdanb\.codex\skills\divi-5-builder`.
+10. Update `references/source-ledger.json` after reviewed source changes are reflected in the reference notes.
+11. Update this file if new canonical or approved third-party sources should be watched in future runs.
+12. Validate the skill with `python C:\Users\bdanb\.codex\skills\.system\skill-creator\scripts\quick_validate.py C:\Users\bdanb\.codex\skills\divi-5-builder`.
 
 ## Update Quality Rules
 
@@ -134,4 +149,10 @@ Use this prompt for a scheduled Codex automation:
 
 ```text
 Refresh the local Divi 5 Builder skill at C:\Users\bdanb\.codex\skills\divi-5-builder. Follow references/source-update-protocol.md. Revisit the canonical Elegant Themes Help Center, changelog, documentation, and blog sources plus approved third-party Divi 5 sources; discover new Divi 5 articles and ecosystem updates; summarize only new or changed knowledge; patch the smallest relevant reference files; keep source URLs; separate confirmed facts, third-party ecosystem notes, workflow recommendations, and marketing claims; validate the skill with the skill-creator quick validator; report what changed and any sources that failed to load.
+```
+
+Preferred automation prompt after this upgrade:
+
+```text
+Refresh the local Divi 5 Builder skill at C:\Users\bdanb\.codex\skills\divi-5-builder. Follow references/source-update-protocol.md. Run scripts/refresh-sources.py to compare current Elegant Themes and approved third-party sources against references/source-ledger.json; then browse or fetch changed/new sources as needed, summarize only new or changed knowledge, patch the smallest relevant reference/playbook files, preserve source URLs, separate confirmed facts, third-party ecosystem notes, workflow recommendations, tutorial patterns, marketing claims, and needs-verification items, update references/source-ledger.json after reviewed source changes are reflected, validate the skill with the skill-creator quick validator, and report what changed plus any sources that failed to load.
 ```

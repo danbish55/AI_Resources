@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "last_manual_refresh": "2026-05-21",
+  "notes": "Ledger for Divi 5 Builder skill refreshes. The refresh helper can compare fetched titles, status codes, content hashes, and detected versions against these entries.",
+  "sources": [
+    {
+      "url": "https://www.elegantthemes.com/api/changelog/divi-5.txt",
+      "category": "canonical-status",
+      "priority": "critical",
+      "last_known_title": "Divi 5 changelog",
+      "last_known_version": "5.5.2",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status",
+      "category": "canonical-status",
+      "priority": "critical",
+      "last_known_title": "Divi 5 Update Status",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/10650977-divi-5",
+      "category": "help-center",
+      "priority": "high",
+      "last_known_title": "Divi 5",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/",
+      "category": "blog-index",
+      "priority": "high",
+      "last_known_title": "Elegant Themes Blog",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5",
+      "category": "help-center-module",
+      "priority": "high",
+      "last_known_title": "The Timeline module in Divi 5",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "Everything You Need To Know About Divi 5's Nested Option Presets",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "Everything You Need To Know About Divi 5's New Form Field Options",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "How To Build Custom Woo Checkout Pages In Divi 5",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "How To Build A Horizontal Blog Loop In Divi 5",
+      "last_checked": "2026-05-21"
+    },
+    {
+      "url": "https://diviengine.com/divi-5/",
+      "category": "third-party-ecosystem",
+      "priority": "low",
+      "last_known_title": "Divi 5",
+      "last_checked": "2026-05-21"
+    }
+  ]
+}

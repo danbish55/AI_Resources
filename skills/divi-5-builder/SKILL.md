@@ -29,15 +29,22 @@ Follow this order unless the user asks for a narrow fix:
 
 Load only the reference needed for the task:
 
+- For new multi-page site builds, read `playbooks/build-new-site.md`.
+- For Divi 4-to-Divi 5 migrations, read `playbooks/migrate-divi-4-site.md` and `references/divi-4-forbidden-assumptions.md`.
+- For WooCommerce store, product, cart, or checkout work, read `playbooks/build-woo-store.md`.
+- For builder bugs, rendering problems, saving issues, migration glitches, or frontend mismatches, read `playbooks/debug-builder-issue.md` and, when diagnosis is broad, `references/troubleshooting-decision-tree.md`.
+- For design-system setup or cleanup, read `playbooks/create-design-system.md`.
+- For handoff notes, maintenance instructions, or client training, read `playbooks/client-handoff.md`.
 - For setup, migration, interface orientation, and the overall course sequence, read `references/core-workflow.md`.
 - For Design Variables, Variable Generator, presets, nested option presets, and Extend Attributes, read `references/design-system.md`.
 - For homepages, content sections, responsive layout, Flexbox, Grid, and Command Center queueing, read `references/page-building.md`.
 - For Theme Builder, custom headers, editable headers/footers, and complete site editing, read `references/theme-builder.md`.
 - For Interactions, Canvases, Canvas Portal, hover reveals, hotspots, and reusable off-canvas content, read `references/interactions-canvases.md`.
 - For Link modules, Dropdown modules, Menu Loops, mobile menus, text badges, card carousels, Divi Cloud/library reuse, and component patterns, read `references/components-menus.md`.
+- For choosing a Divi-native module/system before proposing custom code, read `references/module-capability-matrix.md`.
 - For official Elegant Themes documentation links across setup, builder tools, design options, modules, and WooCommerce modules, read `references/official-docs-map.md`.
 - For current Divi 5 status, fact-versus-hype guidance, beginner explanations, feature selection, WooCommerce, Dynamic Content, Help Center/blog source coverage, and source confidence, read `references/divi-5-field-guide.md`.
-- For refreshing this skill from Elegant Themes sources, read `references/source-update-protocol.md`.
+- For refreshing this skill from Elegant Themes sources, read `references/source-update-protocol.md`, use `scripts/refresh-sources.py` for a source-change report when useful, and compare against `references/source-ledger.json`.
 
 If a task spans several areas, read the smallest set of references that covers it.
 
@@ -64,6 +71,7 @@ If a task spans several areas, read the smallest set of references that covers i
 - Use Interactions for explicit trigger/effect/target behavior; prefer click/toggle alternatives for touch-heavy layouts.
 - Use Canvases and Canvas Portal for off-canvas menus, popups, slide-ins, reusable badges, hotspots, and detached content.
 - Use Loop Builder when repeated content should stay connected to WordPress data.
+- Check `references/module-capability-matrix.md` before recommending custom code for a problem that may have a native Divi module or system.
 
 ## Quality Bar
 
