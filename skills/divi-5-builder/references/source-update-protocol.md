@@ -27,6 +27,7 @@ Current/status sources:
 - https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status
 - https://www.elegantthemes.com/api/changelog/divi-5.txt
 - https://www.elegantthemes.com/blog/
+- https://www.elegantthemes.com/blog/category/divi-resources
 
 Divi 5 Help Center:
 
@@ -51,9 +52,9 @@ Divi 5 Help Center:
 Core blog/tutorial sources:
 
 - https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets
-- https://www.elegantthemes.com/blog/divi-resources/5-svg-sections-for-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/svg-sections-for-divi-5
 - https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5
-- https://www.elegantthemes.com/blog/divi-resources/17-graphs-charts-for-divi-5
+- https://www.elegantthemes.com/blog/divi-resources/graphs-and-charts-for-divi-5
 - https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5
 - https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5
 - https://www.elegantthemes.com/blog/divi-resources/part-9-building-the-core-inner-pages-of-your-divi-5-website

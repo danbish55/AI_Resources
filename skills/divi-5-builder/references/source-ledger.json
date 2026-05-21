@@ -4,75 +4,650 @@
   "notes": "Ledger for Divi 5 Builder skill refreshes. The refresh helper can compare fetched titles, status codes, content hashes, and detected versions against these entries.",
   "sources": [
     {
-      "url": "https://www.elegantthemes.com/api/changelog/divi-5.txt",
-      "category": "canonical-status",
-      "priority": "critical",
-      "last_known_title": "Divi 5 changelog",
-      "last_known_version": "5.5.2",
-      "last_checked": "2026-05-21"
-    },
-    {
       "url": "https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status",
       "category": "canonical-status",
       "priority": "critical",
-      "last_known_title": "Divi 5 Update Status",
-      "last_checked": "2026-05-21"
+      "last_known_title": "Divi 5 Update Status | Elegant Themes Help Center",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "38ac4e3f450d6d9e3d2dd01e9cb1765581e583d4207d6dff7fea9073e3990202",
+      "last_known_version": "5.5.1"
     },
     {
-      "url": "https://help.elegantthemes.com/en/collections/10650977-divi-5",
-      "category": "help-center",
-      "priority": "high",
-      "last_known_title": "Divi 5",
-      "last_checked": "2026-05-21"
-    },
-    {
-      "url": "https://www.elegantthemes.com/blog/",
-      "category": "blog-index",
-      "priority": "high",
-      "last_known_title": "Elegant Themes Blog",
-      "last_checked": "2026-05-21"
+      "url": "https://www.elegantthemes.com/api/changelog/divi-5.txt",
+      "category": "canonical-status",
+      "priority": "critical",
+      "last_known_title": "version 5.5.2 ( updated 05-16-2026 )",
+      "last_known_version": "5.5.2",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "04763b109070ef187d110ab17b9703ffeb3a0759a0059d874f03e608dbbd0111"
     },
     {
       "url": "https://help.elegantthemes.com/en/articles/15162149-the-timeline-module-in-divi-5",
       "category": "help-center-module",
       "priority": "high",
-      "last_known_title": "The Timeline module in Divi 5",
-      "last_checked": "2026-05-21"
+      "last_known_title": "The Timeline module in Divi 5 | Elegant Themes Help Center",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "c6b3510865cc1f5a1515cc843ebc59feeb0f26da096eb22138358fe453d30979"
     },
     {
-      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets",
-      "category": "blog-tutorial",
-      "priority": "medium",
-      "last_known_title": "Everything You Need To Know About Divi 5's Nested Option Presets",
-      "last_checked": "2026-05-21"
+      "url": "https://help.elegantthemes.com/en/collections/10650977-divi-5",
+      "category": "help-center",
+      "priority": "high",
+      "last_known_title": "Divi 5 | Elegant Themes Help Center",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "07d5aa6afe1404f636626dc26d6b6eeabed6d49198827c7d9afc787f6461086e"
     },
     {
-      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options",
-      "category": "blog-tutorial",
-      "priority": "medium",
-      "last_known_title": "Everything You Need To Know About Divi 5's New Form Field Options",
-      "last_checked": "2026-05-21"
+      "url": "https://www.elegantthemes.com/blog/",
+      "category": "blog-index",
+      "priority": "high",
+      "last_known_title": "Elegant Themes Blog | Best WordPress & Divi Resources Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Work...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "2e63eeeb19dcf47f998f65f11b4691eafb8d83435136cceb56569f2e4a9d99a7",
+      "last_known_version": "5.5"
     },
     {
-      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5",
-      "category": "blog-tutorial",
-      "priority": "medium",
-      "last_known_title": "How To Build Custom Woo Checkout Pages In Divi 5",
-      "last_checked": "2026-05-21"
-    },
-    {
-      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5",
-      "category": "blog-tutorial",
-      "priority": "medium",
-      "last_known_title": "How To Build A Horizontal Blog Loop In Divi 5",
-      "last_checked": "2026-05-21"
+      "url": "https://www.elegantthemes.com/blog/category/divi-resources",
+      "category": "blog-index",
+      "priority": "high",
+      "last_known_title": "Divi Resources Archives | Elegant Themes Blog Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Mar...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "292be778fc96c0ea554031b5b0f5b52f190b9b1aaf6304fb29cb5a3c19a87d48",
+      "last_known_version": "5.5"
     },
     {
       "url": "https://diviengine.com/divi-5/",
       "category": "third-party-ecosystem",
       "priority": "low",
-      "last_known_title": "Divi 5",
-      "last_checked": "2026-05-21"
+      "last_known_title": "Divi 5 - Divi Engine",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "43a70b9a7b32192a23dea9a88b5358b27caa87e3e1820f03f92044108a04c00b"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-nested-option-presets",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "Everything You Need To Know About Divi 5's Nested Option Presets Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Eco...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "5b2eac9ac1cf495e072a15b578f6b19283948371df832658844b2cba55e4a238"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-form-field-options",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "Everything You Need To Know About Divi 5's New Form Field Options Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ec...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "6e30a0e39c8ca7991abfd3bbbfad08c92488bc63a7ebb9d269a5a78ccfca9263"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/graphs-and-charts-for-divi-5",
+      "category": "blog-freebie",
+      "priority": "medium",
+      "last_known_title": "17 Graphs & Charts For Divi 5 (Free Download!) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Ma...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "89fe87ae88d91e2ddc94d499cf8b0f93835bbef571119caa3e6d7b5720f11518"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-a-horizontal-blog-loop-in-divi-5",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "How To Build A Horizontal Blog Loop In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Mar...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "ffade74bfad77833a9799d081142b24bea5232f3e999c3c3a223b55ec55eaec5"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-build-custom-woo-checkout-pages-in-divi-5",
+      "category": "blog-tutorial",
+      "priority": "medium",
+      "last_known_title": "How To Build Custom Woo Checkout Pages In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "a8ad265e3d3138030ace43e647fbe07abb4b41635568681d4f978f1bc58d12a8"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/svg-sections-for-divi-5",
+      "category": "blog-freebie",
+      "priority": "medium",
+      "last_known_title": "5 SVG Sections For Divi 5 (Free Download!) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Market...",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "e51f506899e41bbd0534af0f3ac84fb2e69276e326c6e7c7fb3bc6433b44685b"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/10650978-divi-5-modules",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "f66d6084f49af6af68b203323f18151c37600eb8cfb575d4edc735be83789617",
+      "last_known_title": "Divi 5 Modules | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/10777927-divi-5-options-groups",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "8e2ad22db45a03b108864d260004aa4ba71d77c4c3c762f5c6a9ff70ee8d9ecf",
+      "last_known_title": "Divi 5 Options Groups | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/11349519-divi-5-features",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "d1daec2d3eb125267e1e7c93092443b37cdb56946b653612ebe46930d838a103",
+      "last_known_title": "Divi 5 Features | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/13895918-flexbox-layout-system",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "793ef92a481e3e99f586944488d7a50dc89e8a3838e35027ec515644b2c26dd1",
+      "last_known_title": "Flexbox Layout System | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/14577685-divi-5-faq-and-troubleshooting",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "69e7c23e7eca2d4bcf563a230df06c0da5361eeb79cee0e2471b24497c7d220d",
+      "last_known_title": "Divi 5 FAQ and Troubleshooting | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/14719628-divi-5-woocommerce-modules",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "f0f3c9811a90d97e527ec6b23b70854c363f8148936d2df6db8da85928c39645",
+      "last_known_title": "Divi 5 WooCommerce Modules | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "0696cdb240074d3c908966a6e73aa2325c8c690bfc1ac438c301851b1c7960c0",
+      "last_known_title": "CSS Grid Layout System | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/16928111-getting-started",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "7c449f627a3315512b708dc51f271259f81bc63ddbbccae084de9510e3e6fdd1",
+      "last_known_title": "Getting Started | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/16928144-initial-site-setup-new-sites",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "fe66145e313973c0dc1435b3817b018bcead44ab8fede6e1f20274e672534edc",
+      "last_known_title": "Initial Site Setup (New Sites) | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/16928149-divi-5-visual-builder",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "fe201ee187738e397fb6ffd4c067cb326e4e881790144a6ea5d70cd5c1da6112",
+      "last_known_title": "Divi 5 Visual Builder | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/16928157-divi-5-visual-builder-basics",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "0f7a3b44e6cd47a817da241a4596d03dcff8a1d85167a84c9cfba7d8e82a919c",
+      "last_known_title": "Divi 5 Visual Builder Basics | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/16928174-divi-5-visual-builder-core-concepts",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "6a262da17588daf21a5adf7c6a3d4e8da11a696e1af9943521b4c0d94f1bec5a",
+      "last_known_title": "Divi 5 Visual Builder Core Concepts | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/17812093-divi-5-visual-builder-advanced-concepts",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "c9df6cba49b502af1fc01bf79988b198eb2d8ba8afef3746107704793efdf595",
+      "last_known_title": "Divi 5 Visual Builder Advanced Concepts | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/18679262-migrating-from-divi-4-existing-sites",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "f7d6576c6da63f470feba37477883d18a447e9e25d5753273be66e4531b81de6",
+      "last_known_title": "Migrating from Divi 4 (Existing Sites) | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/19029167-email-service-provider-integrations",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "8b76818f5a79bb0b3e1da2c93669d60789d508a97bddd427c72a4a34f13ef988",
+      "last_known_title": "Email Service Provider Integrations | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://help.elegantthemes.com/en/collections/19619840-divi-5-cloud",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "d48006cbb0947ba34e05b4cd7fc8a3f10fb275c8ee7694de7f50907a0382ac93",
+      "last_known_title": "Divi 5 Cloud | Elegant Themes Help Center"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/building-an-image-hover-reveal-effect-using-divi-5s-interactions",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "c2e4b61d9c9eacfb565eb615da1c12e75a27ef38ea96f364e898b7f65e1e59f3",
+      "last_known_title": "Building An Image Hover Reveal Effect Using Divi 5's Interactions Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ec..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/divi-5-5-release-notes",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "aa95cd05d7311192835b1b06c0381cd60eab557a0c14ec30e16115ec9e356e2e",
+      "last_known_title": "Divi 5.5 Release Notes Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing Developers Site...",
+      "last_known_version": "5.5"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/divi-5-commands-every-power-user-should-know",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "bef3f59e6d50fc0870f85b1eba41a60060a8b4b715bc86f97107d6897bb1e55f",
+      "last_known_title": "Divi 5 Commands Every Power User Should Know Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Mark..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/divi-design-youtube-channels-you-should-follow",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "3fbd88187c0cd30981dac0c6052507ed7fae66a245e0f9697abf013c0b7127c2",
+      "last_known_title": "6 Divi Design YouTube Channels You Should Follow Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/editing-headers-and-footers-faster-with-divi-5-editable-areas",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "aa6d2d8a1dd12c6b0b5199b99f41c9997fd6cb351c48dff426d6222cf7c6d413",
+      "last_known_title": "Editing Headers And Footers Faster With Divi 5 Editable Areas Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecomme..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-composable-settings-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "d4689711485ccbefb78010b27e447297ad292675fe71059d39ded56b3f2e65b0",
+      "last_known_title": "Everything You Need To Know About Composable Settings In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecom..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-divi-5s-new-menu-features",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "62b2cf88385e113b204dcea7cf9ba52b2260bcc91e3aff6b279e8f015863c9e5",
+      "last_known_title": "Everything You Need To Know About Divi 5's New Menu Features Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommer..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-extend-attributes-helps-you-design-faster-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "7cec4aa418052efd7435e924a19e4fbe2a998af7147a47e7a1a1d8580d8a2e83",
+      "last_known_title": "How Extend Attributes Helps You Design Faster In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Wo..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-the-command-center-changes-the-divi-5-workflow",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "f7b103d33aa196ff8b687c1f23900f58c5a272437edcde1458ccf6ef06ae2838",
+      "last_known_title": "How The Command Center Changes The Divi 5 Workflow Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflo..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-add-hotspots-to-images-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "afa8a903cf767ad85870ed1fd554b9a7b38678329ecea0682872b42b48f55b29",
+      "last_known_title": "How To Add Hotspots To Images In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-create-a-card-carousel-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "a8732a20cd1199843cbe7c53f2c41d1bcaf96fa6392c996e52e0d8e327fa2e91",
+      "last_known_title": "How To Create A Card Carousel In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-enable-composable-settings-by-default-using-presets-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "141230a53741554cf24c1641a61b53be36de05b55df7e80eb8ba38a82536cae3",
+      "last_known_title": "How To Enable Composable Settings By Default Using Presets In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-get-started-with-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "52b0f0f3f7d9c0d7d7b0850423421731095f9436893a14e9cc66047a652419ce",
+      "last_known_title": "Getting Started With Divi 5 (Everything You Need To Know) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-1-what-to-prepare-before-building-your-divi-5-website",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "ed4c2cfd760b7860cb9385ae13b754cfe0d9a6e25e23ed14cb74b7dd468ed703",
+      "last_known_title": "Part 1: What To Prepare Before Building Your Divi 5 Website Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerc..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-10-mastering-flexbox-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "d4051d74d29b32f69bb25fb22a1767b647dec05308f32f55b4a4c37d23035d51",
+      "last_known_title": "Part 10: Mastering Flexbox In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing De..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-2-exploring-every-aspect-of-the-divi-5-interface",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "4a36a6422d65260f716c9421b1ef5775b91533981e2b134a768c4bb961510f6e",
+      "last_known_title": "Part 2: Exploring Every Aspect Of The Divi 5 Interface Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Wor..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-3-creating-a-divi-5-global-design-system-with-design-variables",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "a0c9ecfb53b9af85ff909f53627024d11f05cf101ab16187f75400dd69dd8c30",
+      "last_known_title": "Part 3: Creating A Divi 5 Global Design System With Design Variables Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "76bd1487f236806007f7b3950a6330544e2199647ad25d6b9895331de1d197c0",
+      "last_known_title": "Part 4: Mastering Divi 5 Presets For Faster, More Consistent Web Design Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Buil..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-5-building-a-divi-5-homepage-from-scratch",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "71c791ec4a8c560e9212454850ec0e01405ab5b485bf36be3c7544756de70555",
+      "last_known_title": "Part 5: Building A Divi 5 Homepage From Scratch Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow M..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-6-building-a-custom-header-and-navigation-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "7ffb450cebbf849ff3446f935d6780d34c5e69aaf2604d8764615d38857d44bd",
+      "last_known_title": "Part 6: Building A Custom Header And Navigation In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-7-building-a-custom-footer-in-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "b53b5ed534121800197335df3b538543f3b088ba5854f869c058d2ba397db0d7",
+      "last_known_title": "Part 7: Building A Custom Footer In Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Market..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-8-using-divi-5s-theme-builder-to-create-global-website-templates",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "85fc8aa1458fc4ac6637c5497a576be0a30f7ab5fd20c1804b799ad0ea9295c9",
+      "last_known_title": "Part 8: Using Divi 5's Theme Builder To Create Global Website Templates Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Buil..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/part-9-building-the-core-inner-pages-of-your-divi-5-website",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "43c332098c2bd765a6dae7b3644e7dd33de6a21431f0bad0a226a26b615f3d8f",
+      "last_known_title": "Part 9: Building The Core Inner Pages Of Your Divi 5 Website Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommer..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/divi-resources/queueing-commands-in-divi-5-to-build-entire-layouts",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "8194fe5f948e07a31319019cdb17f3704a0eb34990a04de88da19172052690f3",
+      "last_known_title": "Queueing Commands In Divi 5 To Build Your Layouts Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/aspect-ration-image-framing-image-presets-for-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "940e34eac5b8c8a9cdcc589ee4f3da9862f84d1e876fe378d2a89763c1358db1",
+      "last_known_title": "Aspect Ratio, Image Framing & Image Presets for Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Wor..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/command-center",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "8e0287fc1fe6ed893e4306b38af066a98b6330d4720745dc6d5235335cee216b",
+      "last_known_title": "Introducing The Divi 5 Command Center Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing D..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/complete-site-editing",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "3f368eb480468d5247f1f8e7ddd791f1cb91f09d28ac03f4f04aa463c296f60b",
+      "last_known_title": "Editable Theme Builder Areas For Divi 5! (Complete Site Editing) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Eco..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/composable-settings",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "70dfafdac923b8b0e1548a9e41dc421c8d13d7331fe9d1bfb2b03584ca4dad0d",
+      "last_known_title": "Composable Settings for Divi 5 (Hundreds of New Options) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce W..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/css-grid",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "2c1f98f1e68e35716e3d870c444919359f071a089065d6db9a96e23a76a2ccd0",
+      "last_known_title": "Introducing CSS Grid For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing Develop..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/design-variables",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "dcc7fb21c29a6890fb734a4d73675d325bb5415bd365f53fd037bf2c506cff2d",
+      "last_known_title": "Introducing Design Variables For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/divi-ai-for-divi-5",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "59550ad87253d25daea5d2454fece922c8a39f9f477800dfe90075a6286d72a4",
+      "last_known_title": "Introducing Divi AI For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing Develope..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/divi-canvases",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "a4c974a64fec23c58bfd3ab556072864c1e1557512f86ce9c94c377b8bafeeac",
+      "last_known_title": "Introducing Divi Canvases (Off-Canvas Menus, Popups & Canvas Portals \ud83e\udd2f) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Buil..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/extend-attributes",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "153ac8a7946c4339b594f9bc46c3b50d477fd8c2d217c18efd5f8baef2089c01",
+      "last_known_title": "Introducing Extend Attributes For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketin..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/flexbox",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "66102c7276289e7d3370059ec8e15c2c5d56fb917b8042159896df96e492e310",
+      "last_known_title": "Divi 5's Flexbox Layout System Has Arrived Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Market...",
+      "last_known_version": "5.0"
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/interactions",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "7f9e7ac6bf3f334843bee5bda470bee6473f706e69a01cbbbff79eea2c330d2f",
+      "last_known_title": "Interactions For Divi 5 (Pop-Ups, Toggles, Mouse Effects & More) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Eco..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/loop-builder",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "ac76855164dd96da4b86941fed19330b48dc7d8af521ac3fb5ea4ab163dc0db9",
+      "last_known_title": "Introducing Loop Builder For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing Dev..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/nested-option-presets",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "81388ad8a834454a7c77aef51e37bbe5a16645a382a77c113fd500a5a4d6d168",
+      "last_known_title": "Nested Options Presets for Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow Marketing Devel..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/new-menu-modules-menu-looping-and-interactions",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "885a61d89bd4c189d7a755f94b63003a37e7532ddb72654ce391c54ffe5e4a5a",
+      "last_known_title": "New Menu Modules, Menu Looping and Interactions Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workflow M..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/preset-based-design",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "c691e6b47d2b7bd034e6926c8bb1e9934f270c9ee0bf56f0670bfa58308099a4",
+      "last_known_title": "Introducing Preset-Based Design For Divi 5 (Most Important Feature In Years) Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/preset-manager",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "1fc64e688acb163a5c32a274821fc3f0f2c60d4347f45f1bb15558a164528f05",
+      "last_known_title": "Preset Manager, Preset Preview + Preset/Variable Export! Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce W..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/semantic-elements",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "803eee777d0b65b67cde982a6ef360d4b81335879c0a2f2b08ba8b701de8b10e",
+      "last_known_title": "Semantic Elements & Custom HTML Wrappers For Divi 5 Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Workfl..."
+    },
+    {
+      "url": "https://www.elegantthemes.com/blog/theme-releases/variable-generator",
+      "category": "discovered",
+      "priority": "review",
+      "last_checked": "2026-05-21",
+      "last_status": 200,
+      "last_sha256": "5814042be796de97147219aed62b51c9b724ea1ffb61fb4246c4158612cf2cd3",
+      "last_known_title": "Divi 5 Sizing System & Color Palette Variable Generator Expand Menu Collapse Menu All Features 200+ Elements 2,000+ Layouts Quick Sites No-Code Design Theme Builder Ecommerce Wo..."
     }
-  ]
+  ],
+  "last_script_refresh": "2026-05-21"
 }
