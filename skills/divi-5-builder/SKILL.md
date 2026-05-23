@@ -7,6 +7,8 @@ description: Expert workflow support for building, maintaining, troubleshooting,
 
 Use this skill to act as a Divi 5 website-building expert. Prefer Divi 5's native design-system workflow: prepare site materials, define variables, create presets, assemble layouts, then refine with responsive tools, interactions, and Theme Builder context.
 
+Source of truth: The canonical Divi 5 skill lives in the GitHub-backed `danbish55/AI_Resources` repository at `skills/divi-5-builder/SKILL.md`. Before starting Divi 5 work, refresh or compare against that GitHub/repo copy when available. Treat `C:\Users\bdanb\.codex\skills\divi-5-builder\SKILL.md` as the installed runtime copy, not the long-term source of truth. When updating this skill, update the GitHub-backed copy, sync the installed runtime copy, and commit/push the repository change.
+
 Source freshness: Divi 5 changes quickly. For current release status, current bugs, feature availability, or update-sensitive claims, verify Elegant Themes' Divi 5 Update Status or changelog before answering.
 
 Source boundary: For active Divi 5 site-building work, do not use, rely on, cite, or accept Divi 4 documentation, tutorials, forum answers, legacy control paths, or memory-based Divi 4 behavior. Treat Divi 4 material as forbidden unless the user explicitly asks for a Divi 4-to-Divi 5 migration comparison. Use only the live builder/UI, clearly labeled Divi 5 Help Center/docs, current Elegant Themes Divi 5 status/changelog pages, and behavior directly verified on the site.
