@@ -15,15 +15,17 @@ Source boundary: For active Divi 5 site-building work, do not use, rely on, cite
 
 Follow this order unless the user asks for a narrow fix:
 
-1. Clarify the site goal, page type, content state, and whether this is a new Divi 5 build or a Divi 4 migration.
-2. Confirm the project has the needed brand inputs: logo, colors, fonts, sitemap, copy, images, CTAs, and references.
-3. Build or verify Design Variables before styling pages.
-4. Build Option Group Presets, nested option presets, and Element Presets before repeating patterns.
-5. Build structure with Sections, Rows, Columns, Groups, Flexbox, Grid, and Command Center queueing when useful.
-6. Apply variables and presets instead of hardcoded one-off values.
-7. Use Theme Builder for global headers, footers, templates, and editable site areas.
-8. Use Interactions, Canvases, Canvas Portal, Loop Builder, and Divi-native component patterns for dynamic or reusable UI. Recommend custom module development only when the project explicitly requires code.
-9. Review breakpoints, accessibility, performance, naming, and maintainability before calling work complete.
+1. Clarify whether the project is a from-scratch build, a reference-site mimic/replication, or a Divi 4 migration.
+2. If the project is a mimic/replication, inventory the reference before building: fonts, logos, images, icons, colors, section patterns, module types, copy, CTAs, menus, forms, animations/interactions, breakpoints, and any third-party services. Use the provided screenshot as the visual target, and use the live reference site when available to inspect exact assets, source paths, responsive behavior, hover states, interactive states, and real typography. Provide the user with a concise list of needed assets and likely sources before editing the target page.
+3. Work with the user to get required assets installed or available in the target site before construction. For fonts, identify the exact family/weight/style and whether it is available from an open source, an existing site/theme asset, an Adobe/Typekit or commercial service, or a licensed file the user must provide. The agent has authority to search the internet for missing asset sources, font availability, licensing/source pages, and reasonable substitutes when the exact asset is unavailable. If a font cannot be obtained or installed, notify the user and suggest close alternatives before proceeding.
+4. Confirm the project has the needed brand inputs: logo, colors, fonts, sitemap, copy, images, CTAs, and references.
+5. Build or verify Design Variables before styling pages.
+6. Build Option Group Presets, nested option presets, and Element Presets before repeating patterns.
+7. Build structure with Sections, Rows, Columns, Groups, Flexbox, Grid, and Command Center queueing when useful.
+8. Apply variables and presets instead of hardcoded one-off values.
+9. Use Theme Builder for global headers, footers, templates, and editable site areas.
+10. Use Interactions, Canvases, Canvas Portal, Loop Builder, and Divi-native component patterns for dynamic or reusable UI. Recommend custom module development only when the project explicitly requires code.
+11. Review breakpoints, accessibility, performance, naming, and maintainability before calling work complete.
 
 ## Reference Selection
 
@@ -51,6 +53,7 @@ If a task spans several areas, read the smallest set of references that covers i
 ## Safety And Change Scope
 
 - For existing or production sites, recommend a current backup and staging environment before migrations, global Theme Builder edits, preset refactors, variable changes, plugin/theme updates, or bulk Extend Attributes operations.
+- When the user explicitly authorizes production Divi page-building work, the agent may upload/install needed WordPress/Divi assets such as fonts, logos, icons, and source images; adjust Divi Design Variables, presets, and reusable styles that support the current page or future related pages; save/publish after each completed section so progress is durable; purge or refresh relevant site cache when saved Divi changes do not appear publicly; and inspect live reference sites or search the web for missing asset/font sources.
 - Do not add CSS unless the user approves it first. If CSS is approved, place it only inside the specific module it affects. Do not add global CSS, theme-wide CSS, Customizer CSS, page-wide CSS, or broad selectors.
 - If a Divi module's own custom CSS editor or native controls cannot persist the necessary fix, ask before escalating to WordPress `Appearance > Customize > Additional CSS`. Any Additional CSS must be tightly scoped to the specific page/module classes, include responsive guards when appropriate, and be verified on the public page after publishing.
 - Ask before making site-wide changes to Design Variables, Option Group Presets, Element Presets, Theme Builder templates, menus, reusable canvases, or dynamic content assignments.
@@ -61,6 +64,8 @@ If a task spans several areas, read the smallest set of references that covers i
 ## Divi 5 Operating Principles
 
 - Treat Divi 5 as a design-system builder, not only a page builder.
+- Build pages in Divi's actual hierarchy: Section first, then Row, then Column structure, then Modules. For each page section, decide the required row count, choose the row column layout (including uneven column structures when needed), add only the modules required for that section, and finish the section before moving down the page. For mimic/replication work, compare the completed section against the reference section and verify desktop/tablet/mobile responsiveness before beginning the next section.
+- When the user is watching Visual Builder work, make progress feel coherent. Work visibly from top to bottom so the page appears to improve in a human-readable sequence. Avoid jumping between distant sections unless fixing a dependency such as a global font, design variable, header/footer asset, or preset. Explain those dependencies briefly before leaving the current section.
 - Use variables for repeated values: colors, fonts, fluid sizes, spacing, gaps, borders, radius, logos, business text, CTA labels, and external links.
 - Use Option Group Presets for shared setting groups and Element Presets for full module/component styles.
 - Use nested and stacked presets where scopes are complementary.
@@ -84,6 +89,7 @@ If a task spans several areas, read the smallest set of references that covers i
 
 ## Observed Builder Quirks And Troubleshooting
 
+- For reference-site replication, work top down. Finish and verify the header/hero before moving to the next visible section. Before styling a text module, inspect the reference page's rendered/source font stack. If the reference uses custom fonts that are not loaded on the target site, stop the section match and either install the font through Divi/WordPress font controls with permission or tell the user exactly which font files/service are missing. On the Just Cabins to Just Rooms replication, verified reference fonts are `Tablet Gothic Wide` bold for headings, `Avenir` for body copy, and `Tablet Gothic Narrow` bold for navigation/buttons. The reference loads local TTFs from the child theme webfonts stylesheet plus an Adobe Typekit kit; the target page initially loaded Google fonts such as Roboto/Open Sans instead, causing a visible mismatch even when Divi heading weight/color were correct.
 - In some Divi 5 installs, newly added module field edits may appear accepted but fail to persist if the module settings panel is closed before saving the page. When this happens, keep the module settings panel open after filling the field, save the page from the top builder bar, verify publicly or through rendered content, and only then close the module panel.
 - If a module setting does not persist, retry with a smaller single-field change and save immediately before moving to the next setting. Document stubborn controls and continue with the next useful Divi-native task instead of stalling.
 - If canvas plus buttons or wireframe add controls do not respond reliably, open the Layers panel, expand the target Section > Row > Column, select the column settings, then use Content > Elements > Add Element. This keeps the work inside native Divi 5 modules while avoiding flaky canvas hit targets.
