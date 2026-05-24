@@ -13,6 +13,19 @@ Source freshness: Divi 5 changes quickly. For current release status, current bu
 
 Source boundary: For active Divi 5 site-building work, do not use, rely on, cite, or accept Divi 4 documentation, tutorials, forum answers, legacy control paths, or memory-based Divi 4 behavior. Treat Divi 4 material as forbidden unless the user explicitly asks for a Divi 4-to-Divi 5 migration comparison. Use only the live builder/UI, clearly labeled Divi 5 Help Center/docs, current Elegant Themes Divi 5 status/changelog pages, and behavior directly verified on the site.
 
+## Operating Manual Workflow
+
+For substantial Divi 5 site builds, redesigns, franchise systems, or ongoing maintenance programs, ask whether the user wants a non-technical operating manual if one has not already been created. The manual should explain the site's Divi 5 structure, intended day-to-day use, reusable patterns, maintenance responsibilities, and boundaries for non-technical editors.
+
+When creating or updating a manual:
+
+1. Search the project repo first for an existing manual, especially under a Divi/website documentation folder such as `website/divi/manuals/`. Do not start from memory if an existing document may have been edited by the user.
+2. If an existing manual exists, read the current version and update from that file as the source of truth. Preserve user edits, wording, and document structure unless the user asks for a rewrite.
+3. Use MS Word `.docx` when requested, and keep a Markdown or text source copy beside it when useful for future diffs and regeneration.
+4. After major Divi components are added or changed, such as the design system, Theme Builder header/footer, reusable sections, franchisee child-site template, menus, forms, Rooms pages, pricing, or global CTA patterns, offer to update the manual before calling the work fully complete.
+5. Keep manuals non-technical unless the audience is technical: day-to-day editor guidance, common Divi 5 paths, what may be changed locally, what must remain global, and verification checklists. Avoid CSS/code/server-maintenance detail unless explicitly requested.
+6. Commit and push manual changes to the relevant GitHub repository so the repo remains the source of truth.
+
 ## Core Workflow
 
 Follow this order unless the user asks for a narrow fix:
